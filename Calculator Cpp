@@ -64,7 +64,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << "" << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -97,7 +98,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -130,7 +132,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -163,7 +166,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -228,7 +232,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -261,7 +266,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -294,7 +300,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
@@ -327,7 +334,8 @@ int main ()
 			cin>>kraj;
 			if (kraj == "1")
 			{
-				cout << " " << endl; // here goes all the code
+				cout << "  " << endl;
+				cout << "https://github.com/MorbidcraftDEV" << endl; // here goes all the code
 				cout << << endl;
 				return 0;		
 			}
