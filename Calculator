@@ -1,0 +1,357 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+
+int main ()
+{
+	string Jezik;
+	
+	system("color 0a");
+	
+	cout << "Language/Jezik:"<<endl;
+	cout << "Type 'Eng' for English."<<endl;
+	cout << "Napisite 'Srb' za Srpski."<<endl;
+	
+	cin >> Jezik;
+	
+	while (Jezik != "Eng" && "Srb")
+	{
+		cout << "  " << endl;
+		cout << "----------------------------------------------------------" << endl;
+		cout << "Please type 'Eng' or 'Srb' if you want to continue." << endl;
+		cout << "Molimo vas unesite 'Eng' ili 'Srb' ako zelite da nastavite." << endl;
+		
+		cin >> Jezik;
+	}
+	
+	if (Jezik == "Eng")
+	{
+		cout << "  " << endl;
+		cout << "This is a calculator,"<<endl;
+		cout << "please enter the first number."<<endl;
+		cout << "  " << endl;
+		
+		string operacija;
+		double number1, number2;
+		
+		cin >> number1;
+		
+		cout << "  " << endl;
+		cout << "Please enter the second number."<<endl;
+		cout << "  " << endl;
+		
+		cin >> number2;
+		
+		cout << "  " << endl;
+		cout << "Please enter operation. (+ - * /)"<<endl;
+		cout << "  " << endl;
+		
+		cin >> operacija;
+		
+		//------------------------
+		if (operacija  == "+")
+		{
+			cout << "  " << endl;
+			cout << number1 + number2 << endl;
+				
+			cout << "  " << endl;
+			cout << "Thank you for using this calculator!" << endl;
+			cout << "I know it may not be the best but this is made" << endl;
+			cout << "to learn certain things in coding." << endl;
+			cout << "If you want to see the code, type: 1" << endl;
+			cout << "If you want to exit, type: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << "" << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 or 2" << endl;	
+				
+				cin>>kraj;
+			}
+		}
+		
+		else if (operacija == "-")
+		{
+			cout << "  " << endl;
+			cout << number1 - number2 << endl;
+				
+			cout << "  " << endl;
+			cout << "Thank you for using this calculator!" << endl;
+			cout << "I know it may not be the best but this is made" << endl;
+			cout << "to learn certain things in coding." << endl;
+			cout << "If you want to see the code, type: 1" << endl;
+			cout << "If you want to exit, type: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 or 2" << endl;	
+				
+				cin>>kraj;
+			}
+		}
+		
+		else if (operacija == "*")
+		{
+			cout << "  " << endl;
+			cout << number1 * number2 << endl;
+				
+			cout << "  " << endl;
+			cout << "Thank you for using this calculator!" << endl;
+			cout << "I know it may not be the best but this is made" << endl;
+			cout << "to learn certain things in coding." << endl;
+			cout << "If you want to see the code, type: 1" << endl;
+			cout << "If you want to exit, type: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 or 2" << endl;	
+				
+				cin>>kraj;
+			}
+		}
+		
+		else if (operacija == "/")
+		{
+			cout << "  " << endl;
+			cout << number1 / number2 << endl;
+			
+			cout << "  " << endl;
+			cout << "Thank you for using this calculator!" << endl;
+			cout << "I know it may not be the best but this is made" << endl;
+			cout << "to learn certain things in coding." << endl;
+			cout << "If you want to see the code, type: 1" << endl;
+			cout << "If you want to exit, type: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 or 2" << endl;	
+				
+				cin>>kraj;
+			}
+		}
+		
+		else {
+			cout << "  " << endl;
+			cout << "-------ERROR!-------" << endl;
+			cout << "The program couldn't calculate that." << endl;
+			cout << "Possible errors:" << endl;
+			cout << "You typed a word/sentence, not a number." << endl;
+			cout << "You typed word/sentence/wrong operation, instead of ( + - * / )." << endl;
+		}
+	}
+	
+	else if (Jezik == "Srb")
+	{
+		cout << "  " << endl;
+		cout << "Ovo je kalkulator,"<<endl;
+		cout << "molimo vas upisite prvi broj."<<endl;
+		
+		string operacija2;
+		double number3, number4;
+		
+		cin >> number3;
+		
+		cout << "  " << endl;
+		cout << "Molimo vas ukucajte drugi broj."<<endl;
+		
+		cin >> number4;
+		
+		cout << "  " << endl;
+		cout << "Molimo vas ukucajte neku od ponudjenih operacija: (+ - * /)."<<endl;
+		
+		cin >> operacija2;
+		
+		//---------------------
+		if (operacija2 == "+")
+		{
+			cout << "  " << endl;
+			cout << number3 + number4 << endl;
+			
+			cout << "  " << endl;
+			cout << "Hvala vam sto ste koristili ovaj kalkulator!" << endl;
+			cout << "Znam da mozda nije najbolji ali ovo je napravljeno" << endl;
+			cout << "da bih naucio odredjene stvari u kodiranju." << endl;
+			cout << "Ako zelite da vidite kod ukucajte: 1" << endl;
+			cout << "Ako zelite da izadjete ukucajte: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 ili 2" << endl;	
+				
+				cin>>kraj;
+			}
+		}
+		
+		else if (operacija2 == "-")
+		{
+			cout << "  " << endl;
+			cout << number3 - number4 << endl;
+			
+			cout << "  " << endl;
+			cout << "Hvala vam sto ste koristili ovaj kalkulator!" << endl;
+			cout << "Znam da mozda nije najbolji ali ovo je napravljeno" << endl;
+			cout << "da bih naucio odredjene stvari u kodiranju." << endl;
+			cout << "Ako zelite da vidite kod ukucajte: 1" << endl;
+			cout << "Ako zelite da izadjete ukucajte: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 ili 2" << endl;
+					
+				cin>>kraj;
+			}
+		}
+		
+		else if (operacija2 == "*")
+		{
+			cout << "  " << endl;
+			cout << number3 * number4 << endl;
+			
+			cout << "  " << endl;
+			cout << "Hvala vam sto ste koristili ovaj kalkulator!" << endl;
+			cout << "Znam da mozda nije najbolji ali ovo je napravljeno" << endl;
+			cout << "da bih naucio odredjene stvari u kodiranju." << endl;
+			cout << "Ako zelite da vidite kod ukucajte: 1" << endl;
+			cout << "Ako zelite da izadjete ukucajte: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 ili 2" << endl;	
+				
+				cin>>kraj;
+			}
+		}
+		
+		else if (operacija2 == "/")
+		{
+			cout << "  " << endl;
+			cout << number3 / number4 << endl;
+			
+			cout << "  " << endl;
+			cout << "Hvala vam sto ste koristili ovaj kalkulator!" << endl;
+			cout << "Znam da mozda nije najbolji ali ovo je napravljeno" << endl;
+			cout << "da bih naucio odredjene stvari u kodiranju." << endl;
+			cout << "Ako zelite da vidite kod ukucajte: 1" << endl;
+			cout << "Ako zelite da izadjete ukucajte: 2" << endl;
+			string kraj;
+			cin>>kraj;
+			if (kraj == "1")
+			{
+				cout << " " << endl; // here goes all the code
+				cout << << endl;
+				return 0;		
+			}
+			
+			else if (kraj == "2")
+			{
+				return 0;
+			}
+			while (kraj != "1" && "2")
+			{
+				cout << " " << endl;	
+				cout << "1 ili 2" << endl;
+				
+				cin>>kraj;	
+			}
+		}
+		
+		else {
+			cout << "  " << endl;
+			cout << "-------GRESKA!-------" << endl;
+			cout << "Program nije mogao da izvrsi vasu racunsku operaciju." << endl;
+			cout << "Moguce greske:" << endl;
+			cout << "Napisali ste rec/slovo umesto broja." << endl;
+			cout << "Napisali ste rec/slovo/pogresnu operaciju umesto ( + - * / )." << endl;
+		}
+	}
+}
